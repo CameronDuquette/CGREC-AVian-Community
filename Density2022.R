@@ -2,7 +2,7 @@ maxcomb=read.csv("Avcom.csv")
 
 
 
-####hullyuh includes all species. use for diversity stuff
+
 ordbirds2=maxcomb[2:66]
 birdmax2=metaMDS(ordbirds2, distance="bray", k=3, trymax=5000)
 
